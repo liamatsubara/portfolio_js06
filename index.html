@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Lia Matsubara">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" href="./assets/img/favicon.svg"/>
+
+    <!-- Link para a folha de estilo css -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
     <title>Lia's Portfolio</title>
 </head>
 <body>
 
     <!-- Cabeçalho da Página -->
-    <header>
+    <header class="flex menu_container">
 
-        <div id="header_content">
+        <div id="header_content" class="menu_content">
 
             <!-- Titulo do Menu -->
             <div id="titulo">
@@ -22,11 +31,11 @@
             </div>
 
             <!-- Menu -->
-            <div id="menu">
+            <div id="menu" class="flex">
 
                 <nav>
                     <!-- Marcadores não ordenados -->
-                     <ul>
+                     <ul class="flex menu_list">
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#contact">Contato</a></li>
@@ -40,33 +49,35 @@
 
     <!-- Seção Principal da Página -->
     <main>
-        <section id="home">
-            <article id="home_texto">
 
-                <h4>Bem-Vindo do Novo Universo</h4>
+        <!-- Seção Home -->
+        <section id="home" class="flex home_container">
+            <article id="home_texto" class="flex home_content">
+
+                <h4>Bem-Vindo ao Novo Universo</h4>
                 <h1>Mundos diferentes para pessoas diferentes</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, iure. Doloribus quasi possimus qui, ipsam quisquam impedit illo totam in, a eius, necessitatibus quae corrupti velit sapiente eveniet magnam ipsum.</p>
-                <a href="https://github.com/liamatsubara" target="_blank">
+                <a href="https://github.com/liamatsubara" target="_blank" class="botao">
                     Explorar
                 </a>
             </article>
 
-            <article id="home_imagem">
+            <article id="home_imagem" class="home_content">
                 <img src="./assets/img/astronauta.svg" alt="Capacete de Astronauta Animado">
             </article>
         </section>
 
         <!-- Seção sobre -->
-        <section id="about">
+        <section id="about" class="flex about_container">
             <img src="./assets/img/user_02.svg" alt="Foto do Perfil do Github">
 
-            <article id="about_texto">
+            <article id="about_texto" class="about_texto">
 
                 <h1>Sobre Mim</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur, libero suscipit tempora quam dolor quas similique blanditiis cupiditate et reiciendis? Sapiente veritatis officia sunt voluptatem sit qui corrupti voluptate!</p>
 
-                <div id="about_github">
-                    <a href="https://github.com/liamatsubara" target="_blank">
+                <div id="about_github" class="flex about_github">
+                    <a href="https://github.com/liamatsubara" target="_blank" class="botao">
                         Github
                     </a>
                     <p>200 Seguidores</p>
