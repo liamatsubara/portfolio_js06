@@ -68,15 +68,15 @@
         </section>
 
         <!-- Seção sobre -->
-        <section id="about" class="flex about_container">
+        <section id="about" class="flex sobre_container">
             <img src="./assets/img/user_02.svg" alt="Foto do Perfil do Github">
 
-            <article id="about_texto" class="about_texto">
+            <article id="about_texto">
 
                 <h1>Sobre Mim</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur, libero suscipit tempora quam dolor quas similique blanditiis cupiditate et reiciendis? Sapiente veritatis officia sunt voluptatem sit qui corrupti voluptate!</p>
 
-                <div id="about_github" class="flex about_github">
+                <div id="about_github" class="flex sobre_github">
                     <a href="https://github.com/liamatsubara" target="_blank" class="botao">
                         Github
                     </a>
@@ -89,22 +89,25 @@
         </section>
 
         <!-- Seção de contato -->
-        <section id="contact">
+        <section id="contact" class="contato_container">
 
-            <h4>Contate-me</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam inventore dolore est corrupti quod animi, at perspiciatis pariatur eum similique eius perferendis accusamus quidem corporis commodi molestias suscipit, doloremque facere.</p>
+            <article id="redes_sociais" class="flex contato_content">
 
-            <div id="icones_redes_sociais">
-                <a href="https://www.linkedin.com/in/liamatsubara/" target="_blank">
-                    <img src="./assets/img/linkedin.svg" alt="Logo do Linkedin">
-                </a>
-                <a href="https://github.com/liamatsubara" target="_blank">
-                    <img src="./assets/img/github.svg" alt="Logo do Github">
-                </a>
-                <a href="" target="_blank">
-                    <img src="./assets/img/instagram.svg" alt="Logo do Instagram">
-                </a>
-            </div>
+                <h4>Contate-me</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam inventore dolore est corrupti quod animi, at perspiciatis pariatur eum similique eius perferendis accusamus quidem corporis commodi molestias suscipit, doloremque facere.</p>
+
+                <div id="icones_redes_sociais" class="social_container">
+                    <a href="https://www.linkedin.com/in/liamatsubara/" target="_blank">
+                        <img src="./assets/img/linkedin.svg" alt="Logo do Linkedin" class="social_icon">
+                    </a>
+                    <a href="https://github.com/liamatsubara" target="_blank">
+                        <img src="./assets/img/github.svg" alt="Logo do Github" class="social_icon">
+                    </a>
+                    <a href="" target="_blank">
+                        <img src="./assets/img/instagram.svg" alt="Logo do Instagram" class="social_icon">
+                    </a>
+                </div>
+            </article>
 
             <!-- Formulário de Contato -->
             <form action="" method="POST">
@@ -125,7 +128,7 @@
                 <textarea name="mensagem" id="mensagem" placeholder="Digite a sua mensagem">
                 </textarea>
 
-                <button type="submit">Enviar</button>
+                <button type="submit" class="botao">Enviar</button>
             </form>
 
         </section>
