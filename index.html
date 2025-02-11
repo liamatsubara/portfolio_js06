@@ -69,23 +69,7 @@
 
         <!-- Seção sobre -->
         <section id="about" class="flex sobre_container">
-            <img src="./assets/img/user_02.svg" alt="Foto do Perfil do Github">
-
-            <article id="about_texto">
-
-                <h1>Sobre Mim</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur, libero suscipit tempora quam dolor quas similique blanditiis cupiditate et reiciendis? Sapiente veritatis officia sunt voluptatem sit qui corrupti voluptate!</p>
-
-                <div id="about_github" class="flex sobre_github">
-                    <a href="https://github.com/liamatsubara" target="_blank" class="botao">
-                        Github
-                    </a>
-                    <p>200 Seguidores</p>
-                    <p>20 Repositórios</p>
-
-                </div>
-
-            </article>
+            
         </section>
 
         <!-- Seção de contato -->
@@ -110,7 +94,10 @@
             </article>
 
             <!-- Formulário de Contato -->
-            <form action="" method="POST">
+            <form action="https://formsubmit.co/d12e44e5a51312de392ce9ebf77b62cb" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <label for="nome">Nome</label>
                 <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
@@ -138,5 +125,9 @@
     <footer>
         Feito com 💛 por Lia Matsubara - 2025
     </footer>
+
+    <!-- Script JavaScript -->
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
