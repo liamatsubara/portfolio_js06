@@ -17,7 +17,9 @@ async function getApiGithub() {
             <article id="about_texto">
 
                 <h1>Sobre Mim</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur, libero suscipit tempora quam dolor quas similique blanditiis cupiditate et reiciendis? Sapiente veritatis officia sunt voluptatem sit qui corrupti voluptate!</p>
+                <p>Graduada em Rádio, TV e Internet, acumulo experiência na edição de vídeo e produção de acessibilidade para conteúdos audiovisuais. Atualmente, estou em transição de carreira para a área de tecnologia, cursando Análise e Desenvolvimento de Sistemas na Fatec e participando de um Bootcamp Full Stack JavaScript pela Generation.</p>
+                
+                <p>Durante essa jornada, desenvolvi e pratiquei lógica de programação, adquirindo experiência com linguagens e tecnologias como JavaScript, TypeScript, Node.js, Nest.js, SQL, Java, HTML, CSS e React. Além disso, tenho conhecimento em metodologias ágeis, como Scrum, e desenvolvi habilidades em gestão de tempo, trabalho em equipe e comunicação interpessoal, que me ajudam a lidar com projetos, aprender de forma constante e colaborar de maneira eficiente em diferentes situações.</p>
 
                 <div id="about_github" class="flex sobre_github">
                     <a href="${perfil.html_url}" target="_blank" class="botao">
